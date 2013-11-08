@@ -1,0 +1,195 @@
+/*-----colors--------------------------
+
+hunter gr	#4b7648		R  25	G  18	B  72
+pink		#f687a8		R 246	G 135	B 168
+red			#eb1f1e		R 235	G  31	B  30
+lime gr		#bdd259		R 189	G 210	B  89
+orange		#f59d55		R 245	G 157 	B  85
+lt blue		#cce0e7		R 204	G 224	B 231
+black		#000000
+
+
+-------------------------------------------*/
+
+/*font-family: 'News Cycle', sans-serif;
+
+font-family: 'Mystery Quest', cursive;*/
+
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+body{
+	width: 920;
+	background: -webkit-linear-gradient(left top, #4b7648, #f687a8); 
+	background: -o-linear-gradient(bottom right, #4b7648, #f687a8); 
+	background: -moz-linear-gradient(bottom right, #4b7648, #f687a8); 
+	background: linear-gradient(to bottom right, #4b7648, #f687a8); 
+	background-repeat: none;	
+}
+
+	
+#header{
+	background-color: #f59d55;  /*--orange---*/
+	border-radius: 10px;
+	-mox-box-shadow: 2px 2px 2px #7f7d7c;
+ 	-webkit-box-shadow: 2px 2px 2px #7f7d7c;
+ 	box-shadow: 2px 2px 2px #7f7d7c;
+}
+
+#nav li{
+	background-color: #4b7648;
+	padding: 10px;
+	margin: 10px;
+	display: inline;
+	border-radius: 10px;
+	-mox-box-shadow: 2px 2px 2px #7f7d7c;
+ 	-webkit-box-shadow: 2px 2px 2px #7f7d7c;
+ 	box-shadow: 2px 2px 2px #7f7d7c;
+			
+}
+
+h1{
+	font-family: 'Mystery Quest', cursive;
+	font-weight: bold;
+	text-shadow: 2px 1px 1px #7f7d7c;
+	color: black;
+	padding: 10px 20px;
+}
+
+
+
+
+h2, h3, h4{
+	font-family: 'Mystery Quest', cursive;
+	font-weight: normal;
+	color: #4b7648;
+	padding: 10px 20px;
+}
+
+.logo{
+	border: solid 3px #cce0e7;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+p{
+	font-family: 'News Cycle', sans-serif;
+	color: #000000;
+	padding: 10px 20px;
+}
+
+ul li{
+	list-style-type: none;
+	font-style: italic;
+	color: #eb1f1e; /*--red--*/
+			
+}
+
+ol li{
+	color: #eb1f1e; /*--red--*/
+	list-style-type: none;
+	
+}
+
+a:link{
+	color: #000000;
+}
+
+a:visited{
+	color: #f687a8; /*--pink--*/
+}
+
+a:active{
+	color: #eb1f1e; /*--red--*/
+}
+
+a:hover{
+	color: #cce0e7; /*--lt blue--*/
+}
+
+a:focus{
+	color: #4b7648; /*--hunter gr--*/
+}
+
+
+#main{
+	background-color: #cce0e7; /*--lt blue--*/
+	border-radius: 10px;
+	-mox-box-shadow: 2px 2px 2px #7f7d7c;
+ 	-webkit-box-shadow: 2px 2px 2px #7f7d7c;
+ 	box-shadow: 2px 2px 2px #7f7d7c;
+ 	padding: 10px;
+ 	
+}
+
+article{
+	text-indent: 10px;
+	background-color: #cce0e7; /*--lt blue--*/
+	border-radius: 10px;
+	-mox-box-shadow: 2px 2px 2px #7f7d7c;
+ 	-webkit-box-shadow: 2px 2px 2px #7f7d7c;
+ 	box-shadow: 2px 2px 2px #7f7d7c;
+ 	padding: 10px;
+ 	-moz-column-count: 3;
+	-moz-colum-gap: 0.3857142857148%;
+	float: left;
+	clear: right;
+}
+
+section{
+	background-color: #bdd259; /*--lime green--*/
+	border-radius: 10px;
+	-mox-box-shadow: 2px 2px 2px #7f7d7c;
+ 	-webkit-box-shadow: 2px 2px 2px #7f7d7c;
+ 	box-shadow: 2px 2px 2px #7f7d7c;
+ 	padding: 5px;
+	
+}
+
+.gallery{
+	background-color: #bdd259; /*--lime green--*/
+	padding: 10px;
+	border-radius: 10px;
+	-mox-box-shadow: 2px 2px 2px #7f7d7c;
+ 	-webkit-box-shadow: 2px 2px 2px #7f7d7c;
+ 	box-shadow: 2px 2px 2px #7f7d7c;
+}
+
+#sidebar li{
+	background-color: #f59d55;
+	padding: 10px;
+	display: inline;
+	border-radius: 10px;
+	-mox-box-shadow: 2px 2px 2px #7f7d7c;
+ 	-webkit-box-shadow: 2px 2px 2px #7f7d7c;
+ 	box-shadow: 2px 2px 2px #7f7d7c;
+}
+
+#product_info{
+	text-indent: 10px;
+	background-color: #f687a8; /*--pink--*/
+	border-radius: 10px;
+	-mox-box-shadow: 2px 2px 2px #7f7d7c;
+ 	-webkit-box-shadow: 2px 2px 2px #7f7d7c;
+ 	box-shadow: 2px 2px 2px #7f7d7c;
+ 	padding: 10px;
+ 	overflow: auto;   /*--hidden, scroll--*/
+ 	-moz-column-count: 3;
+	-moz-colum-gap: 0.3857142857148%;	
+}
+
+/*--
+.clearFix{
+	clear: both;
+}--*/
+/*----Vendor Prefixes--
+Microsoft:  -ms-
+Mozilla:	-moz-
+Webkit:		-web-
+Opera:		-o-
+Konqueror	-khtml-
+
+---*/
+
