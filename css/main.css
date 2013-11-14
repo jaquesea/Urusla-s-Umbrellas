@@ -15,18 +15,19 @@ black		#000000
 
 font-family: 'Mystery Quest', cursive;*/
 
-#wrapper{
-	width: 960px;
-	margin: 0 auto;
-}
+
 
 body{
-	width: 920;
 	background: -webkit-linear-gradient(left top, #4b7648, #f687a8); 
 	background: -o-linear-gradient(bottom right, #4b7648, #f687a8); 
 	background: -moz-linear-gradient(bottom right, #4b7648, #f687a8); 
 	background: linear-gradient(to bottom right, #4b7648, #f687a8); 
 	background-repeat: none;	
+}
+
+#wrapper{
+	width: 92%;
+	margin: 0 auto;
 }
 
 	
@@ -70,7 +71,7 @@ h2, h3, h4{
 }
 
 .logo{
-	border: solid 3px #cce0e7;
+	border: Dashed 3px #cce0e7;
 	border-radius: 10px;
 	margin: 10px;
 }
@@ -139,6 +140,70 @@ article{
 	clear: right;
 }
 
+#Contact{
+	text-indent: 10px;
+	background-color: #cce0e7; /*--lt blue--*/
+	border-radius: 10px;
+	-mox-box-shadow: 2px 2px 2px #7f7d7c;
+ 	-webkit-box-shadow: 2px 2px 2px #7f7d7c;
+ 	box-shadow: 2px 2px 2px #7f7d7c;
+ 	padding: 10px;
+	float: left;
+	clear: right;
+	}
+	
+table{
+	font-family: font-family: 'News Cycle', sans-serif;
+	font-size: 12px;
+}
+
+td.head1 {
+	background-color: #f687a8; /*--pink--*/
+	margin-top: 8px;
+	padding: 3px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}
+
+td.head2 {
+	background-color: #f687a8; /*--pink--*/
+	margin-top: 8px;
+	padding: 3px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}
+	
+td.head3 {
+	background-color: #f687a8; /*--pink--*/
+	margin-top: 8px;
+	padding: 3px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}
+
+td.head4 {
+	background-color: #f687a8; /*--pink--*/
+	margin-top: 8px;
+	padding: 3px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}
+
+td.input{
+	width: 120;
+	text-align: right;
+	vertical-align: baseline;
+}
+
+input,textarea{
+	margin-top: 8px;
+}
+
+
 section{
 	background-color: #bdd259; /*--lime green--*/
 	border-radius: 10px;
@@ -147,6 +212,18 @@ section{
  	box-shadow: 2px 2px 2px #7f7d7c;
  	padding: 5px;
 	
+}
+
+#article_title{
+	background-color: #f687a8; /*--pink--*/
+	text-align: center;
+	font-family:
+	padding: 10px;
+	display: inline;
+	border-radius: 10px;
+	-mox-box-shadow: 2px 2px 2px #7f7d7c;
+ 	-webkit-box-shadow: 2px 2px 2px #7f7d7c;
+ 	box-shadow: 2px 2px 2px #7f7d7c;
 }
 
 .gallery{
