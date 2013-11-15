@@ -80,12 +80,14 @@ ul li{
 	border: Dashed 3px #cce0e7;
 	border-radius: 10px;
 	margin: 10px;
+	max-width: 100%;
+	
 }
 
 p{
 	font-family: 'News Cycle', sans-serif;
 	color: #000000;
-	padding: 10px 20px;
+	padding: 10px 20px;	
 }
 
 ol li{
@@ -311,6 +313,55 @@ div.desc{
 #footer{
 	float: left;
 	clear: both;
+}
+
+
+/* =Media Queries
+======================================*/
+/*reset container to auto width*/
+/*Tablet Portrait size to standard 960 (devices and browsers)*/
+@media screen and (mix-width: 768px)and (max-width: 959) {
+	#wrapper{
+		background-color: #cce0e7;
+		width: auto;
+		float: none;
+	}
+	#header{
+		width: auto;
+		float: none;
+	}
+	#nav li{
+		width: auto;
+		float: none;
+	}
+	#main{
+		width: auto;
+		float; none;
+	}
+}
+
+/*--for 480px or less--*/
+/*Mobile Landscape Size to Tablet Portrait(devices and browsers)*/
+@media only screen and (mix-width: 480px)and (max-width: 767){
+	#wrapper{
+		background-color: #bdd259;
+	}
+	#header{	
+		height: auto;
+	}
+	h1{
+	font-size: 24px;	
+	}
+	#sidebar{
+	display: none;
+	}
+}
+
+/*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
+@media screen and(max-width: 479) {
+	#wrapper{
+		background-color: #4b7648;
+	}
 }
 
 /*--
