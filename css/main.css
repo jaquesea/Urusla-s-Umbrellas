@@ -39,34 +39,86 @@ body{
  	box-shadow: 2px 2px 2px #7f7d7c;
 }
 
-#nav li{
-	background-color: #4b7648; /*--pink---*/
-	padding: 1%;
-	display: inline;
+fieldset{
+	background-color: #bdd259; /*--lime green--*/
+	border-radius: 10px;
+	width: 13.333333333333%;
+	float: right;
+	clear: left;
+	margin: 4%;
+	padding: 2%;
+	-mox-box-shadow: 2px 2px 2px #7f7d7c;
+ 	-webkit-box-shadow: 2px 2px 2px #7f7d7c;
+ 	box-shadow: 2px 2px 2px #7f7d7c;
+}
+
+input:focus{
+	background: #e6d99a;
+}
+
+aside{
+	background-color: #cce0e7;
+	color: #4b7648;
+	padding: 1% 2%;
+	overflow: hidden;
 	border-radius: 10px;
 	-mox-box-shadow: 2px 2px 2px #7f7d7c;
  	-webkit-box-shadow: 2px 2px 2px #7f7d7c;
  	box-shadow: 2px 2px 2px #7f7d7c;
- 				
+}
+
+aside p{
+	font-family: 'Mystery Quest', cursive;
+	color: #eb1f1e;
+}
+
+.ordering{
+	font-family: 'Mystery Quest', cursive;
+}
+
+#nav li{
+	background-color: #4b7648; /*--hunter green---*/
+	padding: 2%;
+	margin: 1%;
+	display: inline;
+	border-radius: 10px;
+	-mox-box-shadow: 2px 2px 2px #7f7d7c;
+ 	-webkit-box-shadow: 2px 2px 2px #7f7d7c;
+ 	box-shadow: 2px 2px 2px #7f7d7c;			
 }
 
 h1{
 	background-color: #f687a8;
+	width: 80%;
 	font-family: 'Mystery Quest', cursive;
 	font-weight: bold;
+	height: 40px; 
 	text-shadow: 2px 1px 1px #7f7d7c;
 	color: black;
 	padding: 1% 2%;
 }
 
-
-
-
-h2, h3, h4{
+h2{
 	font-family: 'Mystery Quest', cursive;
 	font-weight: normal;
 	color: #4b7648;
 	padding: 1% 2%;
+	overflow: hidden;
+}
+h3{
+	font-family: 'Mystery Quest', cursive;
+	font-weight: normal;
+	color: #4b7648;
+	padding: 1% 2%;
+	overflow: hidden;
+}
+
+h4{
+	font-family: 'Mystery Quest', cursive;
+	font-weight: normal;
+	color: #4b7648;
+	padding: 1% 2%;
+	overflow: hidden;
 }
 
 ul li{
@@ -77,9 +129,11 @@ ul li{
 }
 
 .logo{
+	width: 41.666666666667%;
+	height: 234px;
 	border: Dashed 3px #cce0e7;
 	border-radius: 10px;
-	margin: 1%;
+	margin: 2%;
 	max-width: 100%;
 	
 }
@@ -162,6 +216,7 @@ article h1{
 	float: left;
 	clear: right;
 	}
+
 	
 table{
 	font-family: 'News Cycle', sans-serif;
@@ -169,7 +224,7 @@ table{
 }
 
 td.head1 {
-	background-color: #f687a8; /*--pink--*/
+	background-color: #f59d55;  /*--orange---*/
 	font-family: 'Mystery Quest', cursive;
 	margin-top: 8px;
 	padding: 3px;
@@ -179,7 +234,7 @@ td.head1 {
 }
 
 td.head2 {
-	background-color: #f687a8; /*--pink--*/
+	background-color: #f59d55;  /*--orange---*/
 	font-family: 'Mystery Quest', cursive;
 	margin-top: 8px;
 	padding: 3px;
@@ -189,7 +244,7 @@ td.head2 {
 }
 	
 td.head3 {
-	background-color: #f687a8; /*--pink--*/
+	background-color: #f59d55;  /*--orange---*/
 	font-family: 'Mystery Quest', cursive;
 	margin-top: 8px;
 	padding: 3px;
@@ -199,7 +254,7 @@ td.head3 {
 }
 
 td.head4 {
-	background-color: #f687a8; /*--pink--*/
+	background-color: #f59d55;  /*--orange---*/
 	font-family: 'Mystery Quest', cursive;
 	margin-top: 8px;
 	padding: 3px;
@@ -208,16 +263,20 @@ td.head4 {
 	font-weight: bold;
 }
 
+td{
+	font-family: 'News Cycle', sans-serif;
+	
+}
+
 td.input{
-	width: 120;
+	width: 120px;
 	text-align: right;
 	vertical-align: baseline;
 }
 
-input,textarea{
+input textarea{
 	margin-top: 8px;
 }
-
 
 section{
 	background-color: #bdd259; /*--lime green--*/
@@ -226,14 +285,21 @@ section{
  	-webkit-box-shadow: 2px 2px 2px #7f7d7c;
  	box-shadow: 2px 2px 2px #7f7d7c;
  	padding: 1%;
+}
+
+section h3{
+	padding: 1% 2%;
 	
 }
+
 
 #article_title{
 	background-color: #f687a8; /*--pink--*/
 	text-align: center;
 	font-family:
 	padding: 1%;
+	margin: 2%; 
+	
 	display: inline;
 	border-radius: 10px;
 	-mox-box-shadow: 2px 2px 2px #7f7d7c;
@@ -318,6 +384,49 @@ div.desc{
  	-moz-column-count: 3;
 	-moz-colum-gap: 0.3857142857148%;	
 }
+
+#section table{
+	margin-top: 8px;
+	padding: 3px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}
+	
+
+table, h3{
+	background-color: #f687a8; /*--pink--*/
+	font-family: 'Mystery Quest', cursive;
+	margin-top: 8px;
+	padding: 3px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}
+
+caption{
+	text-align: center;
+}
+
+.odd th, .odd td{
+	background-color: #bdd259;
+}
+	
+td{
+	background-color: #f687a8; /*--pink--*/
+	font-family: 'News Cycle', sans-serif;
+}
+
+th{
+	text-align: center;
+	background-color: #cce0e7; 
+	
+}
+
+input:focus{
+	background: #e6d99a;
+}
+
 
 #footer{
 	float: left;
